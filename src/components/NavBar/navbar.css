@@ -1,0 +1,32 @@
+.topnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0.8em 0;
+}
+
+.topnav div {
+    text-align: center;
+}
+
+.topnav a, p {
+    margin: 0 1.5em;
+}
+
+.nav_left a, .nav_right a {
+    color: black;
+}
+
+.nav_left a:nth-child(2), .nav_right a:nth-child(1) {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: rgba(1, 22, 39, 0.7);
+    font-family: 'Inter', sans-serif;
+}
+
+.nav_left a:nth-child(1), .nav_right a:nth-child(2) {
+    font-weight: 700;
+    color: rgba(1, 22, 39, 0.7);
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}

@@ -1,0 +1,69 @@
+.underlined {
+    text-decoration: underline;
+}
+
+.container-big {
+    background-color: #011627;
+    max-width: 100%;
+    color: white;
+    padding: 10% 0;
+    background-image: url("../../assets/vector.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container_left-col {
+    text-align: right;
+    padding: 20px 30px;
+}
+
+.container_left-col h1 {
+    font-size: 5em;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container_left-col_text1 p {
+    font-weight: 700;
+    font-size: 1.3em;
+}
+
+.container_left-col_text1 {
+    padding: 1em 0;
+    line-height: 0;
+}
+
+.container_left-col_text2 {
+    margin-top: 2em;
+    line-height: 1.5em;
+    padding: 2em 0 1em;
+}
+
+.container_left-col_text2, .container_left-col_text3 p {
+    margin: 1px 0;
+}
+
+.container_left-col_text2 p:nth-child(2) {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container_left-col_text3 p:nth-child(2) {
+    font-weight: 700;
+}
+
+.container_right-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: auto 0;
+}
+
+#hero-logo {
+    width: 50%;
+    margin: 5em 0;
+}
+
+
+
