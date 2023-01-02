@@ -43,7 +43,7 @@ function Project(props) {
                             <div>
                                 <p className='isSubtitle'>Find the project here:
                                 </p>
-                                <p>{props.projectInfo4}</p>
+                                <a id='link-text' href={props.projectLink}>{props.projectInfo4}</a>
                             </div>
                         </div>
                     </Col>
