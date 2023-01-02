@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4542ff13.css",
+    "main.js": "/portfolio/static/js/main.82e89a47.js",
+    "static/media/translink.png": "/portfolio/static/media/translink.93e3f2e5aba9d2e976d4.png",
+    "static/media/hospital.png": "/portfolio/static/media/hospital.c65f97e488e4a9758763.png",
+    "static/media/careio.png": "/portfolio/static/media/careio.d495e562ddfab3d0e6e2.png",
+    "index.html": "/portfolio/index.html",
+    "main.4542ff13.css.map": "/portfolio/static/css/main.4542ff13.css.map",
+    "main.82e89a47.js.map": "/portfolio/static/js/main.82e89a47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4542ff13.css",
+    "static/js/main.82e89a47.js"
+  ]
+}
