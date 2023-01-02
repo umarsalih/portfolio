@@ -22,6 +22,8 @@
     font-weight: 700;
     color: rgba(1, 22, 39, 0.7);
     font-family: 'Inter', sans-serif;
+    text-decoration: none;
+
 }
 
 .nav_left a:nth-child(1), .nav_right a:nth-child(2) {
@@ -29,4 +31,17 @@
     color: rgba(1, 22, 39, 0.7);
     text-decoration: none;
     font-family: 'Inter', sans-serif;
+}
+
+.nav_left, .nav_right {
+    display: flex;
+    align-items: center;
+}
+
+#contact_text {
+    color: #C84B31;
+}
+
+#portfolio_text {
+    color: #2D4263;
 }

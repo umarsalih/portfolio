@@ -12,7 +12,7 @@ function Navbar() {
                     <a>mobile designs</a>
                 </Link>
                 <Link>
-                    <a>portfolio</a>
+                    <a id='portfolio_text'>portfolio</a>
                 </Link>
             </div>
 
@@ -22,7 +22,7 @@ function Navbar() {
 
             <div className='nav_right'>
                 <Link>
-                    <a>contact</a>
+                    <a id='contact_text'>contact</a>
                 </Link>
                 <Link>
                     <a>about</a>
