@@ -4,9 +4,9 @@ import Home from "./components/Home";
 function App() {
     return (
         <div id="PortfolioApp" className="App">
-            <BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <Routes>
-                    <Route index element={< Home />}/>
+                    <Route exact path='/' index element={< Home />}/>
                 </Routes>
             </BrowserRouter>
         </div>
