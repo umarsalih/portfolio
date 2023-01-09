@@ -1,6 +1,6 @@
 import {Routes, Route, BrowserRouter} from 'react-router-dom';
 import Home from "./components/Home";
-import Mobile from './components/Mobile';
+import Mobile from './components/MobileDesigns/Mobile';
 
 function App() {
     return (

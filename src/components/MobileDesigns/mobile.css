@@ -1,0 +1,35 @@
+.carousel-item {
+    width: 40%;
+}
+
+.carousel {
+    width: 100%;
+}
+
+.mobile-project {
+    margin: 4em;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.mobile-project-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-project-text p {
+    text-align: center;
+    margin: 1em 0;
+}
+
+
+.mobile-project-carousel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
