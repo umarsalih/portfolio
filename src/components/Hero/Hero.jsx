@@ -7,7 +7,7 @@ function Hero() {
         <div className='container-big'>
             <Container>
                 <Row className="justify-content-md-center">
-                    <Col xs lg="6" sm="12">
+                    <Col xs="12" lg="6" sm="12">
                         <div className='container_left-col'>
                             <div className='container_left-col_text1'>
                                 <h1>umar salih</h1>
@@ -28,7 +28,7 @@ function Hero() {
                             </div>
                         </div>
                     </Col>
-                    <Col xs lg="6" sm="12">
+                    <Col xs="12" lg="6" sm="12">
                         <div className='container_right-col'>
                             <img id='hero-logo' src={require('../../assets/laptop.png')}/>
                         </div>

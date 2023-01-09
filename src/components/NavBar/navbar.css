@@ -1,23 +1,30 @@
+.responsive-nav, .responsive-nav-links {
+    display: none;
+}
+
 .topnav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 0.8em 0;
+    width: 100%;
 }
 
 .topnav div {
     text-align: center;
 }
 
-.topnav a, p {
+.topnav a,
+p {
     margin: 0 1.5em;
 }
 
-.nav_left a, .nav_right a {
+.nav_left a,
+.nav_right a {
     color: black;
 }
-
-.nav_left a:nth-child(2), .nav_right a:nth-child(1) {
+.nav_left a:nth-child(2),
+.nav_right a:nth-child(1) {
     font-size: 1.1em;
     font-weight: 700;
     color: rgba(1, 22, 39, 0.7);
@@ -25,15 +32,16 @@
     text-decoration: none;
 
 }
-
-.nav_left a:nth-child(1), .nav_right a:nth-child(2) {
+.nav_left a:nth-child(1),
+.nav_right a:nth-child(2) {
     font-weight: 700;
     color: rgba(1, 22, 39, 0.7);
     text-decoration: none;
     font-family: 'Inter', sans-serif;
 }
 
-.nav_left, .nav_right {
+.nav_left,
+.nav_right {
     display: flex;
     align-items: center;
 }
@@ -44,4 +52,38 @@
 
 #portfolio_text {
     color: #2D4263;
+}
+@media only screen and (max-width: 600px) {
+    .topnav {
+        display: none;
+    }
+
+    .responsive-nav {
+        display: flex;
+        flex-direction: row;
+        height: 4em;
+    }
+
+    #hm-logo {
+        width: 3em;
+        margin: 0.5em 0;
+    }
+
+    .hm-logo-holder {
+        position: absolute;
+        right: 5%;
+    }
+
+    .responsive-nav-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .responsive-nav-links a {
+        text-decoration: none;
+        color: #2D4263;
+        margin: 0.7em 0;
+    }
 }
