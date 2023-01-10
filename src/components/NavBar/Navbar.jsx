@@ -72,14 +72,14 @@ function Navbar() {
                             <Link className='nav-links' to={"./mobile-designs"}>
                                 <a>mobile designs</a>
                             </Link>
-                            <Link className='nav-links' onClick={handleScroll}>
+                            <Link className='nav-links' to={"/"} onClick={handleScroll}>
                                 <a id='portfolio_text'>portfolio</a>
                             </Link>
                             <Link className='nav-links' to={"./mobile-designs"}>
-                                <a>mobile designs</a>
+                                <a>contact</a>
                             </Link>
                             <Link className='nav-links' onClick={handleScroll}>
-                                <a id='portfolio_text'>portfolio</a>
+                                <a id='portfolio_text'>about</a>
                             </Link>
                         </div>
                     </Fragment>
