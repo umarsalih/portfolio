@@ -22,23 +22,17 @@ function Portfolio() {
                     projectName='translink'
                     projectImage={require('../../assets/translink.png')}
                     projectInfo1='Reports the bus schedule for any entered bus station number'
-                    projectInfo2='Software engineering term project with a group of four. Lorem ipsum dolor sit
-                                        amet. Lorem ipsum dolor sit ame Lorem ipsum dolor sit ame'
-                    projectInfo3='Front-end & Design: Figma, React.js
-                                        <br/>
-                                        Back-end & Database: Spring Boot, MySQL'
+                    projectInfo2='A personal project that uses an API by translink to monitor the buses real time. Reports the next three buses stopping at a certain station'
+                    projectInfo3='Figma, React.js, Translink Open API, JSON'
                     projectInfo4='link to project'
                     projectLink="https://umarsalih.github.io/movesmart/"/>
 
                 <Project
                     projectName='hospital'
                     projectImage={require('../../assets/hospital.png')}
-                    projectInfo1='Software engineering term project with a group of four'
-                    projectInfo2='Software engineering term project with a group of four. Lorem ipsum dolor sit
-                                        amet. Lorem ipsum dolor sit ame Lorem ipsum dolor sit ame'
-                    projectInfo3='Front-end & Design: Figma, React.js
-                                        <br/>
-                                        Back-end & Database: Spring Boot, MySQL'
+                    projectInfo1='A simple website for a hospital following basic design principles.'
+                    projectInfo2='A personal term project for Front-end Web Development made using HTML, CSS, and JavaScript. Awarded an A+ for the project and course'
+                    projectInfo3='HTML, CSS, JavaScript'
                     projectInfo4='link to project'
                     projectLink="https://umarsalih.github.io/movesmart/"/>
             </div>

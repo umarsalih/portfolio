@@ -2,8 +2,6 @@ import React from 'react'
 import Navbar from '../NavBar/Navbar'
 import Footer from "../Footer/Footer";
 import {Row, Col, Container, Nav} from 'react-bootstrap';
-import {Carousel} from 'react-bootstrap';
-import {useState} from 'react';
 import CarouselProject from './Carousel';
 import "./mobile.css";
 

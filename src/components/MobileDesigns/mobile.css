@@ -17,7 +17,7 @@
     background-color: #011627;
     color: #ffff;
     padding: 2em 0;
-    border-radius: 10px;
+    border-radius: 10px;    
 }
 
 .underline {
@@ -42,4 +42,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .mobile-project {
+        margin: 4em 1.5em;
+    }
 }
