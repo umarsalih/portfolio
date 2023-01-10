@@ -37,7 +37,7 @@ function Navbar() {
                         </Col>
                         <Col  lg="4" xs="12">
                             <div>
-                                <img src={require('../../assets/us_logo.png')}/>
+                                <img id='nav-logo' src={require('../../assets/us_logo.png')}/>
                             </div>
                         </Col>
                         <Col className='bnav' lg="4" xs="12">
@@ -58,7 +58,7 @@ function Navbar() {
 
             <div className='responsive-nav'>
                 <div>
-                    <img src={require('../../assets/us_logo.png')}/>
+                    <img id='nav-logo' src={require('../../assets/us_logo.png')}/>
                 </div>
                 <div className='hm-logo-holder' onClick={toggleVisibility}>
                     <img id='hm-logo' src={require('../../assets/hm-btn.png')}/>
