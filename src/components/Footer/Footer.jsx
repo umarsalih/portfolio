@@ -10,8 +10,9 @@ function Footer() {
                     <Row className="justify-content-md-center">
                         <Col lg='12'>
                             <div>
-                                <img src={require('../../assets/logo_github.png')}/>
-                                <img src={require('../../assets/logo_linkedin.png')}/>
+                                <a href='https://github.com/umarsalih' target="_blank"><img href="https://github.com/umarsalih" src={require('../../assets/logo_github.png')}/></a>
+                                <a href='https://www.linkedin.com/in/umarsalih/' target="_blank"><img src={require('../../assets/logo_linkedin.png')}/></a>
+                                
                             </div>
                         </Col>
                     </Row>

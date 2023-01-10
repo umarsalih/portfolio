@@ -11,7 +11,7 @@ function Hero() {
                         <div className='container_left-col'>
                             <div className='container_left-col_text1'>
                                 <h1>umar salih</h1>
-                                <p>software engineer</p>
+                                <p>software developer</p>
                             </div>
 
                             <div className='container_left-col_text2'>
