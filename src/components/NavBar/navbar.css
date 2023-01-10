@@ -53,6 +53,29 @@ p {
 #portfolio_text {
     color: #2D4263;
 }
+
+.hover-effect {
+    transition: 0.5s;
+}
+
+.hover-effect:hover {
+    color: white !important;
+    background-color: #2D4263;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#contact_text:hover{
+    background-color: #C84B31;
+}
+
+.bnav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 @media only screen and (max-width: 600px) {
     .topnav {
         display: none;

@@ -25,28 +25,28 @@ function Navbar() {
 
                 <Container>
                     <Row>
-                        <Col lg="4" xs="12">
+                        <Col className='bnav' lg="4" xs="12">
                             <div className='nav_left'>
                                 <Link className='nav-links' to={"./mobile-designs"}>
-                                    <a>mobile designs</a>
+                                    <a className='hover-effect'>mobile designs</a>
                                 </Link>
                                 <Link className='nav-links' to={"/"} onClick={handleScroll}>
-                                    <a id='portfolio_text'>portfolio</a>
+                                    <a className='hover-effect' id='portfolio_text'>portfolio</a>
                                 </Link>
                             </div>
                         </Col>
-                        <Col lg="4" xs="12">
+                        <Col  lg="4" xs="12">
                             <div>
                                 <img src={require('../../assets/us_logo.png')}/>
                             </div>
                         </Col>
-                        <Col lg="4" xs="12">
+                        <Col className='bnav' lg="4" xs="12">
                             <div className='nav_right'>
                                 <Link className='nav-links'>
-                                    <a id='contact_text'>contact</a>
+                                    <a className='hover-effect' id='contact_text'>contact</a>
                                 </Link>
                                 <Link className='nav-links'>
-                                    <a>about</a>
+                                    <a className='hover-effect'>about</a>
                                 </Link>
                             </div>
                         </Col>
