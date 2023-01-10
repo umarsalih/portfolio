@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4542ff13.css",
-    "main.js": "/portfolio/static/js/main.eafcf71c.js",
+    "main.css": "/portfolio/static/css/main.cbc30502.css",
+    "main.js": "/portfolio/static/js/main.c6064031.js",
     "static/media/translink.png": "/portfolio/static/media/translink.93e3f2e5aba9d2e976d4.png",
     "static/media/hospital.png": "/portfolio/static/media/hospital.c65f97e488e4a9758763.png",
     "static/media/careio.png": "/portfolio/static/media/careio.d495e562ddfab3d0e6e2.png",
+    "static/media/mimage3.png": "/portfolio/static/media/mimage3.5eb825160d0e9f18f048.png",
+    "static/media/mimage5.png": "/portfolio/static/media/mimage5.4d487c5e31925c350df6.png",
+    "static/media/mimage1.png": "/portfolio/static/media/mimage1.503e8696155fb8974446.png",
+    "static/media/mimage2.png": "/portfolio/static/media/mimage2.c148fbf89a06ad84f796.png",
+    "static/media/mimage7.png": "/portfolio/static/media/mimage7.38d4254f09ffa99feb6a.png",
+    "static/media/mimage4.png": "/portfolio/static/media/mimage4.4ea7f5c33ffb921dc405.png",
+    "static/media/mimage6.png": "/portfolio/static/media/mimage6.1f121df4d14e61b67990.png",
     "index.html": "/portfolio/index.html",
-    "main.4542ff13.css.map": "/portfolio/static/css/main.4542ff13.css.map",
-    "main.eafcf71c.js.map": "/portfolio/static/js/main.eafcf71c.js.map"
+    "main.cbc30502.css.map": "/portfolio/static/css/main.cbc30502.css.map",
+    "main.c6064031.js.map": "/portfolio/static/js/main.c6064031.js.map"
   },
   "entrypoints": [
-    "static/css/main.4542ff13.css",
-    "static/js/main.eafcf71c.js"
+    "static/css/main.cbc30502.css",
+    "static/js/main.c6064031.js"
   ]
 }
