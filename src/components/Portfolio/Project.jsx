@@ -1,7 +1,10 @@
-import React from 'react'
+import React, {Fragment} from 'react'
 import {Row, Col, Container} from 'react-bootstrap';
 
 function Project(props) {
+
+    const isDeployed = props.isDeployed;
+
     return (
         <div>
             <Container>
@@ -43,7 +46,18 @@ function Project(props) {
                             <div>
                                 <p className='isSubtitle'>Find the project here:
                                 </p>
-                                <a id='link-text' href={props.projectLink}>{props.projectInfo4}</a>
+                                <a target="_blank" id='link-text' href={props.projectGLink}>Github</a>
+                                {isDeployed
+                                    ? (
+                                        <Fragment>
+                                            <span>
+                                                
+                                            </span>
+                                            <a className='underline' target="_blank" id='link-text' href={props.projectWLink}> | Website</a>
+                                        </Fragment>
+                                    )
+                                    : null}
+
                             </div>
                         </div>
                     </Col>

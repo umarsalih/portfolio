@@ -11,30 +11,38 @@ function Portfolio() {
                 <Project
                     projectName='care.io'
                     projectImage={require('../../assets/careio.png')}
-                    projectInfo1='Full stack term project for Software Engineering, awarded an "A" grade'
-                    projectInfo2='Created the front-end components using advanced React.js to perform dynamically. Incorporated emailjs api to send automated emails
+                    projectInfo1='a home care business that offers various from cleaning to nannying. Allows people to sign up as service providers and clients for the service.'
+                    projectInfo2='reated the front-end components using advanced React.js to perform dynamically. Incorporated emailjs api to send automated emails
                     upon user signups'
-                    projectInfo3='Figma, React.js, Spring Boot, MySQL'
+                    projectInfo3='figma, react.js, spring boot, MySQL'
                     projectInfo4='link to project'
-                    projectLink="https://github.com/umarsalih/careio_react_frontend"/>
+                    projectGLink="https://github.com/umarsalih/careio_react_frontend"
+                    isDeployed={false}
+                    />
 
                 <Project
                     projectName='translink'
                     projectImage={require('../../assets/translink.png')}
-                    projectInfo1='Reports the bus schedule for any entered bus station number'
-                    projectInfo2='A personal project that uses an API by translink to monitor the buses real time. Reports the next three buses stopping at a certain station'
-                    projectInfo3='Figma, React.js, Translink Open API, JSON'
+                    projectInfo1='reports the bus schedule for any entered bus station number'
+                    projectInfo2='a personal project that uses an API by translink to monitor the buses real time. Reports the next three buses stopping at a certain station'
+                    projectInfo3='figma, react.js & material ui, Translink Open API, json'
                     projectInfo4='link to project'
-                    projectLink="https://umarsalih.github.io/movesmart/"/>
+                    projectWLink="https://umarsalih.github.io/movesmart/"
+                    projectGLink="https://github.com/umarsalih/movesmart/tree/master"
+                    isDeployed={true}
+                    />
 
                 <Project
                     projectName='hospital'
                     projectImage={require('../../assets/hospital.png')}
-                    projectInfo1='A simple website for a hospital following basic design principles.'
-                    projectInfo2='A personal term project for Front-end Web Development made using HTML, CSS, and JavaScript. Awarded an A+ for the project and course'
-                    projectInfo3='HTML, CSS, JavaScript'
+                    projectInfo1='a simple website for a childrens hospital following basic design principles.'
+                    projectInfo2='a personal term project for Front-end Web Development made using HTML, CSS, and JavaScript. Awarded an A+ for the project and course'
+                    projectInfo3='html, css, javascript'
                     projectInfo4='link to project'
-                    projectLink="https://umarsalih.github.io/movesmart/"/>
+                    projectWLink="https://umarsalih.github.io/hospital/"
+                    projectGLink="https://github.com/umarsalih/childrenshospital"
+                    isDeployed={true}
+                    />
             </div>
         </div>
     )

@@ -27,7 +27,7 @@ function Navbar() {
                     <Row>
                         <Col className='bnav' lg="4" xs="12">
                             <div className='nav_left'>
-                                <Link className='nav-links' to={"./mobile-designs"}>
+                                <Link className='nav-links' to={"/mobile-designs"}>
                                     <a className='hover-effect'>mobile designs</a>
                                 </Link>
                                 <Link className='nav-links' to={"/"} onClick={handleScroll}>
@@ -42,10 +42,13 @@ function Navbar() {
                         </Col>
                         <Col className='bnav' lg="4" xs="12">
                             <div className='nav_right'>
-                                <Link className='nav-links'>
-                                    <a className='hover-effect' id='contact_text'>contact</a>
+                                <Link className='nav-links' to="#" onClick={(e) => {
+                                    window.location.href = "usalih988@gmail.com";
+                                    e.preventDefault();
+                                }}>
+                                    <a  className='hover-effect' id='contact_text' href='mailto:usalih988@gmail.com'>contact</a>
                                 </Link>
-                                <Link className='nav-links'>
+                                <Link className='nav-links' to={"/about"}>
                                     <a className='hover-effect'>about</a>
                                 </Link>
                             </div>
@@ -79,7 +82,7 @@ function Navbar() {
                                 <a>contact</a>
                             </Link>
                             <Link className='nav-links' onClick={handleScroll}>
-                                <a id='portfolio_text'>about</a>
+                                <a id='portfolio_text' href='mailto:usalih988@gmail.com'>about</a>
                             </Link>
                         </div>
                     </Fragment>
