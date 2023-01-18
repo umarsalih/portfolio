@@ -36,8 +36,8 @@ function Portfolio() {
                     projectName='hospital'
                     projectImage={require('../../assets/hospital.png')}
                     projectInfo1='a simple website for a childrens hospital following basic design principles.'
-                    projectInfo2='a personal term project for Front-end Web Development made using HTML, CSS, and JavaScript. Awarded an A+ for the project and course'
-                    projectInfo3='html, css, javascript'
+                    projectInfo2='my first term project for the Front-end Web Development course - made using HTML, CSS, and JavaScript. Awarded an A+ for the project and course'
+                    projectInfo3='html, css, javascript' 
                     projectInfo4='link to project'
                     projectWLink="https://umarsalih.github.io/hospital/"
                     projectGLink="https://github.com/umarsalih/childrenshospital"

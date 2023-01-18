@@ -44,12 +44,12 @@ function Navbar() {
                             <div className='nav_right'>
                                 <Link
                                     className='nav-links'
-                                    to="#"
+                                    to='#'
                                     onClick={(e) => {
-                                    window.location.href = "usalih988@gmail.com";
+                                    window.location.href = "mailto:usalih988@gmail.com";
                                     e.preventDefault();
                                 }}>
-                                    <a className='hover-effect' id='contact_text' href='mailto:usalih988@gmail.com'>contact</a>
+                                    <a className='hover-effect' id='contact_text'>contact</a>
                                 </Link>
                                 <Link className='nav-links' to={"/about"}>
                                     <a className='hover-effect'>about</a>
@@ -75,8 +75,8 @@ function Navbar() {
                 ? (
                     <Fragment>
                         <div className='responsive-nav-links'>
-                            <Link className='nav-links' to={"./mobile-designs"}>
-                                <a>mobile designs</a>
+                            <Link className='nav-links' to={"/mobile-designs"}>
+                                <a className='hover-effect'>mobile designs</a>
                             </Link>
                             <Link className='nav-links' to={"/"} onClick={handleScroll}>
                                 <a id='portfolio_text'>portfolio</a>
@@ -85,12 +85,12 @@ function Navbar() {
                                 className='nav-links'
                                 to="#"
                                 onClick={(e) => {
-                                window.location.href = "usalih988@gmail.com";
+                                window.location.href = "mailto:usalih988@gmail.com";
                                 e.preventDefault();
                             }}>
                                 <a className='hover-effect' id='contact_text' href='mailto:usalih988@gmail.com'>contact</a>
                             </Link>
-                            <Link className='nav-links' to={"./about"}>
+                            <Link className='nav-links' to={"/about"}>
                                 <a id='portfolio_text'>about</a>
                             </Link>
                         </div>
