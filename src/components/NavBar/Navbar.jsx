@@ -7,9 +7,9 @@ function Navbar() {
     const [visible,
         setVisible] = useState(false);
 
-        const toggleVisibility = () => {
-            setVisible(current => !current);
-        }
+    const toggleVisibility = () => {
+        setVisible(current => !current);
+    }
 
     const handleScroll = () => {
         const element = document.getElementById("portfolio-section");
@@ -35,18 +35,21 @@ function Navbar() {
                                 </Link>
                             </div>
                         </Col>
-                        <Col  lg="4" xs="12">
+                        <Col lg="4" xs="12">
                             <div>
                                 <img id='nav-logo' src={require('../../assets/us_logo.png')}/>
                             </div>
                         </Col>
                         <Col className='bnav' lg="4" xs="12">
                             <div className='nav_right'>
-                                <Link className='nav-links' to="#" onClick={(e) => {
+                                <Link
+                                    className='nav-links'
+                                    to="#"
+                                    onClick={(e) => {
                                     window.location.href = "usalih988@gmail.com";
                                     e.preventDefault();
                                 }}>
-                                    <a  className='hover-effect' id='contact_text' href='mailto:usalih988@gmail.com'>contact</a>
+                                    <a className='hover-effect' id='contact_text' href='mailto:usalih988@gmail.com'>contact</a>
                                 </Link>
                                 <Link className='nav-links' to={"/about"}>
                                     <a className='hover-effect'>about</a>
@@ -78,15 +81,22 @@ function Navbar() {
                             <Link className='nav-links' to={"/"} onClick={handleScroll}>
                                 <a id='portfolio_text'>portfolio</a>
                             </Link>
-                            <Link className='nav-links' to={"./mobile-designs"}>
-                                <a>contact</a>
+                            <Link
+                                className='nav-links'
+                                to="#"
+                                onClick={(e) => {
+                                window.location.href = "usalih988@gmail.com";
+                                e.preventDefault();
+                            }}>
+                                <a className='hover-effect' id='contact_text' href='mailto:usalih988@gmail.com'>contact</a>
                             </Link>
-                            <Link className='nav-links' onClick={handleScroll}>
-                                <a id='portfolio_text' href='mailto:usalih988@gmail.com'>about</a>
+                            <Link className='nav-links' to={"./about"}>
+                                <a id='portfolio_text'>about</a>
                             </Link>
                         </div>
                     </Fragment>
-                ) : null}
+                )
+                : null}
 
         </div>
 
