@@ -12,12 +12,13 @@ function Portfolio() {
                     projectName='care.io'
                     projectImage={require('../../assets/careio.png')}
                     projectInfo1='a home care business that offers various from cleaning to nannying. Allows people to sign up as service providers and clients for the service.'
-                    projectInfo2='reated the front-end components using advanced React.js to perform dynamically. Incorporated emailjs api to send automated emails
+                    projectInfo2='created the front-end components using advanced React.js to perform dynamic functions. Also incorporated emailjs api to send automated emails
                     upon user signups'
                     projectInfo3='figma, react.js, spring boot, MySQL'
                     projectInfo4='link to project'
                     projectGLink="https://github.com/umarsalih/careio_react_frontend"
                     isDeployed={false}
+                    projectCreationDate="December 2022"
                     />
 
                 <Project
@@ -30,6 +31,7 @@ function Portfolio() {
                     projectWLink="https://umarsalih.github.io/movesmart/"
                     projectGLink="https://github.com/umarsalih/movesmart/tree/master"
                     isDeployed={true}
+                    projectCreationDate="May 2022"
                     />
 
                 <Project
@@ -42,6 +44,7 @@ function Portfolio() {
                     projectWLink="https://umarsalih.github.io/hospital/"
                     projectGLink="https://github.com/umarsalih/childrenshospital"
                     isDeployed={true}
+                    projectCreationDate="August 2021"
                     />
             </div>
         </div>

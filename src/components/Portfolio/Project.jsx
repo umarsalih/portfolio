@@ -39,6 +39,11 @@ function Project(props) {
                     <Col lg='6'>
                         <div className='project-info project-info-right'>
                             <div>
+                                <p className='isSubtitle'>When was it created?</p>
+                                <p>{props.projectCreationDate}</p>
+                            </div>
+
+                            <div>
                                 <p className='isSubtitle'>What is the stack used?</p>
                                 <p>{props.projectInfo3}</p>
                             </div>
@@ -46,19 +51,22 @@ function Project(props) {
                             <div>
                                 <p className='isSubtitle'>Find the project here:
                                 </p>
-                                <a target="_blank" id='link-text' href={props.projectGLink}>Github</a>
+                                <a className='fancy-link' target="_blank" id='link-text' href={props.projectGLink}>Github</a>
                                 {isDeployed
                                     ? (
                                         <Fragment>
-                                            <span>
-                                                
-                                            </span>
-                                            <a className='underline' target="_blank" id='link-text' href={props.projectWLink}> | Website</a>
+                                            <span> | </span>
+                                            <a
+                                                className='fancy-link'
+                                                target="_blank"
+                                                id='link-text'
+                                                href={props.projectWLink}>
+                                                Website</a>
                                         </Fragment>
                                     )
                                     : null}
-
                             </div>
+
                         </div>
                     </Col>
                 </Row>

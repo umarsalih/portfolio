@@ -18,15 +18,15 @@ function About() {
                         <Col className='profile-text' lg="6" sm="12">
                             <div>
                                 <p>hello! I’m Umar Salih, a front-end web developer based in Vancouver, British
-                                    Columbia. Went from learning to write basic html in high school, to a
-                                    front-end developer that enjoys creating products that people love ❤️
+                                    Columbia. I Went from learning to write basic html in high school, to a
+                                    front-end developer that enjoys designing & creating products that people love ❤️
                                 </p>
-                                <p>but..data structures & algorithm problems always sparked my interest, yet I also
+                                <p>data structures & algorithm problems also always sparked my interest, yet I also
                                     have an eye for great design, to understand how to create a great user
-                                    experience and eye catching designs - it's therapeutic. I have worked with groups of diverse
+                                    experience - I find it therapeutic :D . I have worked with groups of diverse
                                     people, and together we were always able to make something great.</p>
                                 <p>it's always nice to meet new people. as someone who worked in customer
-                                    service, I've interacted with different people that, collectively, help me learn
+                                    service, I've interacted with different people that, collectively, have helped me learn
                                     new things</p>
                             </div>
                         </Col>

@@ -85,6 +85,11 @@ p {
     width: 100%;
 }
 
+.fancy-link:hover {
+    text-decoration: underline !important;
+    font-weight: 700;
+}
+
 
 
 
