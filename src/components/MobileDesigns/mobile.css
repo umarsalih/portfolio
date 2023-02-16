@@ -44,6 +44,25 @@
     align-items: center;
 }
 
+.link-text {
+        color: #ffff;
+        text-decoration: none;
+        cursor: pointer;
+}
+
+.link-text:hover {
+    text-decoration: underline !important;
+    font-weight: 700;
+    color: white;
+    
+}
+
+.reduce-title-space {
+    margin-bottom: 0 !important;
+    padding: 0;
+    color: #7B9DC7;
+}
+
 @media only screen and (max-width: 600px) {
     .mobile-project {
         margin: 4em 1.5em;
