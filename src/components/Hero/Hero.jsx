@@ -18,13 +18,13 @@ function Hero() {
                                 <p className='underlined'>core front-end skills</p>
                                 <p>javascript, react.js, sass,
                                     <br/>
-                                    bootstrap, ui/ux design
+                                    xml, ui/ux design
                                 </p>
                             </div>
 
                             <div className='container_left-col_text3'>
                                 <p className='underlined'>core back-end skills</p>
-                                <p>node express, mongodb, mysql, php</p>
+                                <p>java, node express, mongodb, mysql, php</p>
                             </div>
                         </div>
                     </Col>

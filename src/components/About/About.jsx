@@ -17,17 +17,19 @@ function About() {
                         </Col>
                         <Col className='profile-text' lg="6" sm="12">
                             <div>
-                                <p>hello! I’m Umar Salih, a front-end web developer based in Vancouver, British
-                                    Columbia. I Went from learning to write basic html in high school, to a
-                                    front-end developer that enjoys designing & creating products that people love ❤️
+                                <p>hey there! I'm Umar Salih, a front-end web developer with a passion for
+                                    creating visually stunning, user-friendly web and mobile applications. From my early days
+                                    of learning basic HTML and javascript to now, I've honed my design and coding
+                                    skills to bring your ideas to life.
                                 </p>
-                                <p>data structures & algorithm problems also always sparked my interest, yet I also
-                                    have an eye for great design, to understand how to create a great user
-                                    experience - I find it therapeutic :D . I have worked with groups of diverse
-                                    people, and together we were always able to make something great.</p>
-                                <p>it's always nice to meet new people. as someone who worked in customer
-                                    service, I've interacted with different people that, collectively, have helped me learn
-                                    new things</p>
+                                <p>I find solving complex problems through coding and design to be a deeply
+                                    satisfying and therapeutic experience.</p>
+                                <p>Throughout my career, I've collaborated with diverse teams to create
+                                    exceptional products that resonate with users. Whether it's working on a new
+                                    feature or troubleshooting an issue, I'm always eager to learn and expand my
+                                    skillset.</p>
+                                <p>If you're looking for a passionate, detail-oriented front-end developer with
+                                    a strong design sensibility and a desire to learn and grow, let's <a target="_blank" href='https://www.linkedin.com/in/umarsalih/'>connect!</a></p>
                             </div>
                         </Col>
                     </Row>
@@ -59,8 +61,8 @@ function About() {
                                 <p className='logo-text'>ui/ux design</p>
                             </Col>
                             <Col className='logo-img-holder' sm="4" xs="4" lg="4">
-                                <img id="logo_of" src={require("./minilogos/sql.png")}/>
-                                <p className='logo-text'>sql</p>
+                                <img id="logo_of" src={require("./minilogos/java.png")}/>
+                                <p className='logo-text'>java</p>
                             </Col>
                         </Row>
                         <Row className='row-of-logos'>
@@ -72,6 +74,12 @@ function About() {
                                 <img className='sass-logo' id="logo_of" src={require("./minilogos/sass2.png")}/>
                                 <p id='edit-01' className='logo-text'>sass/css</p>
                             </Col>
+                            <Col className='logo-img-holder' sm="4" xs="4" lg="4">
+                                <img id="logo_of" src={require("./minilogos/sql.png")}/>
+                                <p className='logo-text'>sql</p>
+                            </Col>
+                        </Row>
+                        <Row className='row-of-logos center'>
                             <Col className='logo-img-holder' sm="4" xs="4" lg="4">
                                 <img id="logo_of" src={require("./minilogos/rest-api.png")}/>
                                 <p className='logo-text'>rest api</p>
