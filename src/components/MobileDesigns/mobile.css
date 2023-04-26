@@ -1,10 +1,17 @@
+.mobile-project-item{
+    background-color: #011627;
+    padding: 2em;
+    margin: 2em;
+    border: #ffff 10px solid;
+    border-radius: 30px;
+}
 
 .carousel-item {
     width: 40%;
 }
 
 .carousel-item img {
-    border: #ffff 10px solid;
+    /* border: #ffff 10px solid; */
     border-radius: 10px;
 }
 
@@ -14,7 +21,7 @@
 
 .mobile-project {
     margin: 4em;
-    background-color: #011627;
+    
     color: #ffff;
     padding: 2em 0;
     border-radius: 10px;    
